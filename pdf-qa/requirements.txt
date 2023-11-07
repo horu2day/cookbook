@@ -1,5 +1,5 @@
-pypdf==3.8.1
-pinecone-client==2.2.1
-tiktoken==0.3.3
+pypdf
+pinecone-client
+tiktoken
 langchain
 chainlit

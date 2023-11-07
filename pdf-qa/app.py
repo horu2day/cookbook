@@ -19,7 +19,7 @@ pinecone.init(
     environment=os.environ.get("PINECONE_ENV"),
 )
 
-index_name = "langchain-demo"
+index_name = "chatbot"
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 embeddings = OpenAIEmbeddings()
 
